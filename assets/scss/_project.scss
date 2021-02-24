@@ -5,4 +5,35 @@
     justify-content: center;
     height: 100vh;
     text-align: center;
+    &__content{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        &_counter{
+            margin-bottom: 50px;
+            color: aliceblue;
+            i{
+                color: aquamarine;
+                font-size: 76px;
+
+            }
+            span{
+                color: burlywood;
+                margin: 40px 0;
+                font-size: 76px;
+                font-weight: 500;
+                display: block;
+
+            }
+            p{
+                font-size: 24px;
+                font-weight: 500;
+                color: azure;
+                text-transform: capitalize;
+                letter-spacing: 0.2ch;
+            }
+        }
+    }    
+
 }
